@@ -2,6 +2,8 @@ FROM openanalytics/r-base
 
 MAINTAINER Darren Maczka "dmaczka@vt.edu"
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 # system libraries of general use
 RUN apt-get update && apt-get install -y \
     sudo \
