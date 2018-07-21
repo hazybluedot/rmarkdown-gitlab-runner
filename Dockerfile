@@ -5,7 +5,7 @@ MAINTAINER Darren Maczka "dmaczka@vt.edu"
 # system libraries of general use
 RUN apt-get update && apt-get install -y \
     sudo \
-    lsb_release \
+    lsb-release \
     pandoc \
     pandoc-citeproc \
     libcurl4-gnutls-dev \
